@@ -1,19 +1,21 @@
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
 
-# Virtual environments
+# Environments
 venv/
 .env/
+.env.*
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Data (ignore datasets)
+# Data (keep out of GitHub)
 data/
 *.csv
+*.xlsx
 
-# Trained models
+# Model artifacts (keep out of GitHub)
 models/
 *.pkl
 *.joblib
@@ -21,13 +23,9 @@ models/
 # Logs
 *.log
 
-# OS junk
+# OS / editor
 .DS_Store
 Thumbs.db
-
-# VS Code
 .vscode/
 
-# Secrets
-config.py
-secrets.py
+
